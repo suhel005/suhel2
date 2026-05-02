@@ -61,6 +61,17 @@ CMD ["echo", "Hello, Docker!"]
 
 
 
+git add .
+git remote add origin "
+git branch -m master
+git push -u origin master
+
+git checkout -b "MITS"
+git branch
+git merge MITS
+git checkout master
+git merge MITS
+git branch
 from selenium import webdriver
 import time
 
